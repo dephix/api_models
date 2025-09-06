@@ -1,5 +1,13 @@
-# TODO: Change Project Title
+# Dephix API Models
 
-TODO: Write a short description of your project
+A Python library providing Pydantic models and abstract interfaces for working with trading APIs.
 
-> **Note:** While this project may deviate from the template, the core commit and pre-commit rules still apply. Please review the [pre-commit guidelines](./docs/pre-commit.md) before contributing.
+## Installation
+
+```bash
+pip install dephix-api-models
+```
+
+## Support
+
+For questions and support, please open an issue on GitHub.
