@@ -40,7 +40,6 @@ jobs:
       with:
         tag_name: ${{ github.ref_name }}
         name: Release ${{ github.ref_name }}
-        with:
-          token: ${{ secrets.PAT_RELEASE }}
-          files: |
-            CHANGELOG.md
+        token: ${{ secrets.PAT_RELEASE }}
+        files: |
+          CHANGELOG.md
