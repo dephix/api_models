@@ -40,17 +40,7 @@ jobs:
       with:
         tag_name: ${{ github.ref_name }}
         name: Release ${{ github.ref_name }}
-        body: |
-          ## Changes in this release
-          
-          See the [changelog](CHANGELOG.md) for detailed changes.
-          
-          ## Installation
-          
-          ```bash
-          pip install dephix-api-models
-          ```
-        draft: false
-        prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT_RELEASE }}
+        with:
+          token: ${{ secrets.PAT_RELEASE }}
+          files: |
+            CHANGELOG.md
