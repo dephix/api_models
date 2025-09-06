@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="dephix-api-models",
-    version="0.1.2",
+    version="0.1.3",
     author="Dephix",
     description="Models and interfaces for trading APIs",
     long_description=long_description,

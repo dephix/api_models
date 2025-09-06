@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub Actions workflow for automatic PyPI publishing
 - Personal Access Token support for GitHub Release creation
 
+## [0.1.3] - 2025-09-06
+- Fixed GitHub Release content with CHANGELOG.md
+
 ## [0.1.2] - 2025-09-06
 
 ### Fixed
